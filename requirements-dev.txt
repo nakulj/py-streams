@@ -1,1 +1,13 @@
+appdirs==1.4.4
+attrs==22.2.0
+iniconfig==2.0.0
+jedi==0.18.2
+packaging==23.0
+parso==0.8.3
+pluggy==1.0.0
+prompt-toolkit==3.0.38
+ptpython==3.0.23
+Pygments==2.14.0
+pytest==7.2.2
+wcwidth==0.2.6
 yapf==0.32.0
