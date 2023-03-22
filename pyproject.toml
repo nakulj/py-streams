@@ -1,0 +1,20 @@
+[project]
+name = "py-streams"
+version = "0.0.1"
+authors = [
+  { name="Nakul Joshi"},
+]
+requires-python = ">=3.11"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.yapf]
+indent_width = 2
+blank_lines_around_top_level_definition = 1
+
+[tool.pytest.ini_options]
+addopts = [
+    "--import-mode=importlib",
+]
