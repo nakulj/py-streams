@@ -12,5 +12,5 @@ class Stream(Generic[T]):
   def map(self, mapper: Mapper[T, U]) -> 'Stream[U]':
     return Stream(mapper(t) for t in self.it)
 
-  def collect(self, collector):
-    return collector(self.it)
+  def to_list(self) -> list[T]:
+    return list(self.it)
